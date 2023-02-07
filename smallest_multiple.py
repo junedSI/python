@@ -1,4 +1,4 @@
-def is_prime(n):
+def is_prime(n):                                            #to check is prime or not.
     if n <= 1:
         return False
     for i in range(2, int(n**0.5) + 1):

@@ -10,7 +10,7 @@ def count_divisors(n):
 
 
 def triangle_number(n):
-    return n * (n + 1) // 2
+    return n * (n + 1) // 2             #rounds off to the nearest whole no.
 
 
 def first_triangle_number_with_over_n_divisors(n):
