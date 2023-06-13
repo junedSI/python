@@ -1,0 +1,49 @@
+QWidget {
+    background-color: #F0F0F0;
+}
+
+QLineEdit {
+    border: 2px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    color: #333333;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background-color: #45A049;
+}
+
+QLabel {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+#loginButton {
+    background-color: #2196F3;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#loginButton:hover {
+    background-color: #1976D2;
+}
+
+#loginForm {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
