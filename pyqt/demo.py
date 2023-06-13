@@ -41,10 +41,10 @@ class LoginWindow(QWidget):
         # Set the layout and adjust spacing
         container = QWidget()
         container.setLayout(layout)
-#         layout_wrapper = QVBoxLayout()
-#         layout_wrapper.addStretch(1)
-#         layout_wrapper.addWidget(container)
-#         layout_wrapper.addStretch(1)
+        layout_wrapper = QVBoxLayout()
+        layout_wrapper.addStretch(1)
+        layout_wrapper.addWidget(container)
+        layout_wrapper.addStretch(1)
 #         self.setLayout(layout_wrapper)
 
 
