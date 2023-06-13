@@ -38,9 +38,9 @@ class LoginWindow(QWidget):
         layout.addSpacing(20)
         layout.addWidget(self.login_button, alignment=Qt.AlignCenter)
 
-#         # Set the layout and adjust spacing
-#         container = QWidget()
-#         container.setLayout(layout)
+        # Set the layout and adjust spacing
+        container = QWidget()
+        container.setLayout(layout)
 #         layout_wrapper = QVBoxLayout()
 #         layout_wrapper.addStretch(1)
 #         layout_wrapper.addWidget(container)
