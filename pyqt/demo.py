@@ -45,11 +45,11 @@ class LoginWindow(QWidget):
         layout_wrapper.addStretch(1)
         layout_wrapper.addWidget(container)
         layout_wrapper.addStretch(1)
-#         self.setLayout(layout_wrapper)
+        self.setLayout(layout_wrapper)
 
 
-# if __name__ == '__main__':
-#     app = QApplication(sys.argv)
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
 #     window = LoginWindow()
 #     window.show()
 #     sys.exit(app.exec_())
