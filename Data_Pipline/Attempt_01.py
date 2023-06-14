@@ -3,22 +3,22 @@ import pyodbc
 import os
 
 
-# class AzureSQLDataExporter:
-#     def __init__(self, credentials_file_path):
-#         self.credentials_file_path = credentials_file_path
+class AzureSQLDataExporter:
+    def __init__(self, credentials_file_path):
+        self.credentials_file_path = credentials_file_path
 
-#     def read_credentials_from_file(self):
-#         with open(self.credentials_file_path, "r") as file:
-#             lines = file.readlines()
-#             data = [line.strip() for line in lines]
-#         return data
+    def read_credentials_from_file(self):
+        with open(self.credentials_file_path, "r") as file:
+            lines = file.readlines()
+            data = [line.strip() for line in lines]
+        return data
 
-#     def export_data_to_excel(self):
-#         # Fetch the credentials from the file
-#         fetched_credentials = self.read_credentials_from_file()
+    def export_data_to_excel(self):
+        # Fetch the credentials from the file
+        fetched_credentials = self.read_credentials_from_file()
 
-#         # Pass the fetched credentials to the AzureSQLDataExporter object
-#         server = fetched_credentials[1]
+        # Pass the fetched credentials to the AzureSQLDataExporter object
+        server = fetched_credentials[1]
 #         database = fetched_credentials[2]
 #         username = fetched_credentials[3]
 #         password = fetched_credentials[4]
