@@ -21,7 +21,7 @@ class AzureSQLDataExporter:
         server = fetched_credentials[1]
 #         database = fetched_credentials[2]
 #         username = fetched_credentials[3]
-#         password = fetched_credentials[4]
+        password = fetched_credentials[4]
         
 
         # Establish a connection to the Azure SQL Server
