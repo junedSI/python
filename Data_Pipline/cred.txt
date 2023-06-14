@@ -1,0 +1,5 @@
+your_server_name.database.windows.net
+your_database_name
+your_username
+your_password
+your_tablename
