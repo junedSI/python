@@ -2,7 +2,6 @@ import pandas as pd
 import pyodbc
 import os
 
-
 class AzureSQLDataExporter:
     def __init__(self, credentials_file_path):
         self.credentials_file_path = credentials_file_path
@@ -22,7 +21,6 @@ class AzureSQLDataExporter:
         database = fetched_credentials[2]
         username = fetched_credentials[3]
         password = fetched_credentials[4]
-        
 
         # Establish a connection to the Azure SQL Server
         conn_str = f"DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}"
@@ -55,7 +53,6 @@ class AzureSQLDataExporter:
 
         # Close the connection
         conn.close()
-
 
 # Usage:
 credentials_file_path = os.path.join('cred.txt')
